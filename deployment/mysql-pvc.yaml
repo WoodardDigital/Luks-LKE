@@ -8,6 +8,6 @@ spec:
   resources:
     requests:
       storage: 10Gi
+  volumeName: pvc-6350ad915084420c   # Use the actual name of your retained PV here
   storageClassName: linode-block-storage-retain-luks
-
 
