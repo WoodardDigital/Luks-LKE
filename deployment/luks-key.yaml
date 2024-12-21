@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: csi-encrypt-example-luks-key
+  namespace: default
+stringData:
+  luksKey: "sdsSGkIuisuMDVv8d8s*(#@sdfkkl138*38203SDf"
